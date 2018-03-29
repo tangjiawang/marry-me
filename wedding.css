@@ -1,7 +1,13 @@
+html{
+	overflow-x: hidden;
+}
+html,body{
+	width: 100%;
+}
 /*top 烟花字体 */
 .w-t{
-	margin: 100px auto;
-	width: 500px;
+	margin: 20px auto 100px;
+	width: 100%;
 }
 .w-t img{
 	opacity: 0;
@@ -35,7 +41,7 @@
 	opacity: 0;
 	animation: titleBloom 1s linear 1s both;
 	font-size: 26px;
-    margin-left: -125px;
+	margin-left: -125px;
 }
 @keyframes titleBloom{
 	0% {
@@ -49,7 +55,7 @@
 /*人物类 */
 .w-p{
 	margin: -50px auto;
-	width: 1000px;
+	width: 100%;
 	overflow: hidden;
 }
 .w-m{
@@ -116,7 +122,7 @@
 }
 /*flowers*/
 .w-fls{
-	width: 820px;
+	width: 100%;
 	margin: 0 auto;
 }
 .w-fls img{
